@@ -1,0 +1,40 @@
+.Footer {
+  border-top: 1px solid var(--color-grey, #000);
+  text-align: center;
+  grid-area: footer;
+}
+.footerNavigation{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.8rem;
+}
+
+#footerLeft{
+  margin-left: 15%;
+  width: 60%;
+}
+.footerList{
+  text-align: center;
+}
+
+.footerList span{
+  padding: 0.5rem;
+  list-style-type: none;
+}
+
+.navFooter{
+  color: gray;
+}
+
+.Copyright{
+  font-size: 0-8em;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px)  {
+  .footerNavigation{
+      flex-direction: column;
+  }
+}
+
